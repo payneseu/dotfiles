@@ -74,6 +74,8 @@ export PATH="$HOME/bin":$PATH
 
 alias grep='grep --color'
 alias mvim='mvim --remote-silent'
+alias vim='/usr/local/bin/mvim -v'
+alias tmux='tmux -2'
 
 alias l='ls -l'
 alias ll='ls -l'
@@ -84,6 +86,8 @@ alias diff='colordiff'
 alias mv='mv -i'
 alias cp='cp -i'
 alias ln='ln -i'
+
+alias svn='colorsvn'
 
 
 
@@ -274,3 +278,4 @@ RPS1='$(git_prompt_string)'
 #}
 #
 #source ~/Private/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source ~/Private/zsh_plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
